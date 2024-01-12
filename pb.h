@@ -5,6 +5,9 @@
 #ifndef PB_H_INCLUDED
 #define PB_H_INCLUDED
 
+/* NOLINTBEGIN */
+
+
 /*****************************************************************
  * Nanopb compilation time options. You can change these here by *
  * uncommenting the lines, or on the compiler command line.      *
@@ -913,5 +916,7 @@ template <typename GenMessageT> struct MessageDescriptor;
 }  // namespace nanopb
 }
 #endif  /* __cplusplus */
+
+/* NOLINTEND */
 
 #endif
